@@ -6,7 +6,7 @@ type Square struct {
 	width int
 }
 
-func (s *Square) area() int {	
+func (s Square) area() int {	
 	return s.width * s.width
 }
 

@@ -7,6 +7,7 @@ func main() {
 
 	go func() {
 		msg <- "foo"
+		msg <- "bar"
 	}()
 	
 	fmt.Println(<- msg)

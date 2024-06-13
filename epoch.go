@@ -7,6 +7,6 @@ import (
 
 func main() {
 	now := time.Now()
-	fmt.Println(now.Year(), now.Month(), 
-	now.Day())
+	fmt.Println(now.Unix())
+	fmt.Println(now.UnixMilli())
 }
